@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/argsTest.dir/test/args_test.cpp.o"
   "CMakeFiles/argsTest.dir/src/Schema.cpp.o"
+  "CMakeFiles/argsTest.dir/src/CommandLine.cpp.o"
   "argsTest.pdb"
   "argsTest"
 )

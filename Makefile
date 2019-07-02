@@ -163,6 +163,36 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/args.dir/build.make CMakeFiles/args.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/CommandLine.o: src/CommandLine.cpp.o
+
+.PHONY : src/CommandLine.o
+
+# target to build an object file
+src/CommandLine.cpp.o:
+	$(MAKE) -f CMakeFiles/argsTest.dir/build.make CMakeFiles/argsTest.dir/src/CommandLine.cpp.o
+	$(MAKE) -f CMakeFiles/args.dir/build.make CMakeFiles/args.dir/src/CommandLine.cpp.o
+.PHONY : src/CommandLine.cpp.o
+
+src/CommandLine.i: src/CommandLine.cpp.i
+
+.PHONY : src/CommandLine.i
+
+# target to preprocess a source file
+src/CommandLine.cpp.i:
+	$(MAKE) -f CMakeFiles/argsTest.dir/build.make CMakeFiles/argsTest.dir/src/CommandLine.cpp.i
+	$(MAKE) -f CMakeFiles/args.dir/build.make CMakeFiles/args.dir/src/CommandLine.cpp.i
+.PHONY : src/CommandLine.cpp.i
+
+src/CommandLine.s: src/CommandLine.cpp.s
+
+.PHONY : src/CommandLine.s
+
+# target to generate assembly for a file
+src/CommandLine.cpp.s:
+	$(MAKE) -f CMakeFiles/argsTest.dir/build.make CMakeFiles/argsTest.dir/src/CommandLine.cpp.s
+	$(MAKE) -f CMakeFiles/args.dir/build.make CMakeFiles/args.dir/src/CommandLine.cpp.s
+.PHONY : src/CommandLine.cpp.s
+
 src/Schema.o: src/Schema.cpp.o
 
 .PHONY : src/Schema.o
@@ -233,6 +263,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/CommandLine.o"
+	@echo "... src/CommandLine.i"
+	@echo "... src/CommandLine.s"
 	@echo "... src/Schema.o"
 	@echo "... src/Schema.i"
 	@echo "... src/Schema.s"

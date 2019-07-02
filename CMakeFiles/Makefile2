@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/dengzhiguo/CLionProjects/args
 CMakeFiles/argsTest.dir/all:
 	$(MAKE) -f CMakeFiles/argsTest.dir/build.make CMakeFiles/argsTest.dir/depend
 	$(MAKE) -f CMakeFiles/argsTest.dir/build.make CMakeFiles/argsTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dengzhiguo/CLionProjects/args/CMakeFiles --progress-num=4,5,6 "Built target argsTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dengzhiguo/CLionProjects/args/CMakeFiles --progress-num=5,6,7,8 "Built target argsTest"
 .PHONY : CMakeFiles/argsTest.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/argsTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/argsTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dengzhiguo/CLionProjects/args/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dengzhiguo/CLionProjects/args/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/argsTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dengzhiguo/CLionProjects/args/CMakeFiles 0
 .PHONY : CMakeFiles/argsTest.dir/rule
@@ -108,7 +108,7 @@ clean: CMakeFiles/argsTest.dir/clean
 CMakeFiles/args.dir/all:
 	$(MAKE) -f CMakeFiles/args.dir/build.make CMakeFiles/args.dir/depend
 	$(MAKE) -f CMakeFiles/args.dir/build.make CMakeFiles/args.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dengzhiguo/CLionProjects/args/CMakeFiles --progress-num=1,2,3 "Built target args"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dengzhiguo/CLionProjects/args/CMakeFiles --progress-num=1,2,3,4 "Built target args"
 .PHONY : CMakeFiles/args.dir/all
 
 # Include target in all.
@@ -118,7 +118,7 @@ all: CMakeFiles/args.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/args.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dengzhiguo/CLionProjects/args/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dengzhiguo/CLionProjects/args/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/args.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dengzhiguo/CLionProjects/args/CMakeFiles 0
 .PHONY : CMakeFiles/args.dir/rule

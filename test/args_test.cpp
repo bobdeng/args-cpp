@@ -4,6 +4,7 @@
 
 #include "gtest/gtest.h"
 #include "../src/Schema.h"
+#include "../src/CommandLine.h"
 
 
 TEST(schema,BOOL){
@@ -17,3 +18,7 @@ TEST(schema,INT){
     EXPECT_EQ(schema->getIntValue("l","1"),1);
 }
 
+TEST(Command,param){
+    CommandLine *commandLine=new CommandLine("-l true -d /usr/local");
+    EXPECT_EQ(commandLine->getArg("l"),"true");
+}

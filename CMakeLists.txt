@@ -13,6 +13,6 @@ hunter_add_package(GTest)
 find_package(GTest CONFIG REQUIRED)
 
 
-add_executable(args main.cpp src/Schema.cpp src/Schema.h)
-add_executable(argsTest test/args_test.cpp src/Schema.h src/Schema.cpp )
+add_executable(args main.cpp src/Schema.cpp src/Schema.h src/CommandLine.cpp src/CommandLine.h)
+add_executable(argsTest test/args_test.cpp src/Schema.h src/Schema.cpp src/CommandLine.cpp)
 target_link_libraries(argsTest GTest::main)
