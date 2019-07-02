@@ -11,3 +11,9 @@ TEST(schema,BOOL){
     EXPECT_EQ(schema->getBoolValue("l","true"),true);
     EXPECT_EQ(schema->getBoolValue("l","false"),false);
 }
+
+TEST(schema,INT){
+    Schema *schema=new Schema("l:int");
+    EXPECT_EQ(schema->getIntValue("l","1"),1);
+}
+

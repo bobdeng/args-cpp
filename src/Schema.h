@@ -10,4 +10,6 @@ public:
     Schema(const char *schemas);
 
     static bool getBoolValue(const char *flag, const char *strValue);
+
+    static int getIntValue(const char *flag, const char *strValue);
 };
