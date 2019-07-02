@@ -1,0 +1,4 @@
+/Users/dengzhiguo/CLionProjects/args/cmake-build-debug/CMakeFiles/argsTest.dir
+/Users/dengzhiguo/CLionProjects/args/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/dengzhiguo/CLionProjects/args/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dengzhiguo/CLionProjects/args/cmake-build-debug/CMakeFiles/args.dir
